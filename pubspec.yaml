@@ -1,0 +1,21 @@
+name: sqltest
+description: When this application is online, it stores new data from API to SQL and displays it in fear of SQL when offline.
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.0+3
+  http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
